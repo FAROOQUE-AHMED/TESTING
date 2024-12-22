@@ -16,5 +16,9 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        add(1, 2)
+    }
+    fun add(a: Int, b: Int): Int {
+        return a + b
     }
 }
